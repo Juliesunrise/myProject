@@ -1,0 +1,81 @@
+@import url(root.css);
+
+@media only screen and (max-width:768px ) {
+    .hide {
+display: none;
+    }
+    #modal_background{
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        right: 0;
+        left: 0;
+        z-index: 90;
+    }
+    #header_modal{
+        display: flex;
+        justify-content: space-between;
+        margin-bottom: 18.825rem;
+        padding-top: 2rem;
+        padding-left: 2rem;
+        padding-right: 2rem;
+    }
+    #btn_close{
+        width: 48px;
+        height: 48px;
+        border-radius:50%;
+        fill: var(--white);
+        border: none;
+        margin-top: -1rem;
+        font-weight: 400;
+        font-size: 18px;
+        text-align: center;
+    }
+    .header_nav{
+        list-style-type: none;
+        width: max-content;
+    }
+    .header_nav li{
+        margin-bottom: 1.5rem;
+    }
+    .header_nav a{
+        text-decoration: none;
+        font-family: var(--font-family);
+        font-weight: 900;
+        font-size: 24px;
+        line-height: 125%;
+        color: var(--black);
+    }
+    .header_nav a:active{
+        color: var(--white);
+    }
+    #modal_menu{
+        display: flex;
+        flex-direction: column;
+        width: max-content;
+    }
+    .btn_order_modal{
+        border-radius: 4px;
+        padding: 8px;
+        width: 184px;
+        height: 48px;
+        border: none;
+        background-color: white;
+        margin-left: 2.5rem;
+        margin-bottom:3.5rem ;
+        margin-top: 18.8125rem;
+    }
+    .btn_order_modal:active{
+        font-weight: bold;
+        background-color: #c0bdbd;
+    }
+    .modal_logo{
+       position: absolute;
+       left: 50%;
+        top:20rem;
+    }
+    .modal_logo img{
+        max-width:344px ;
+        max-height: 414px;
+    }
+}
