@@ -1,0 +1,383 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="styles/style.css">
+    <title>Document</title>
+</head>
+<body>
+<header id="header">
+    <div class="wrapper">
+        <div class="container">
+            <div class="header-logo">
+                <img src="./images/logo/welldwell_logo.png" alt="logo"/>
+            </div>
+            <div class="main-menu">
+                <nav id="navbar" class="hide2">
+                    <ul class="header_nav">
+                        <li class="menu-items" ><a class="page" href="#home"><span>Home</span></a></li>
+                        <li class="menu-items"><a class="page" href="#services"><span>Services</span></a></li>
+                        <li class="menu-items"><a class="page" href="#portfolio"><span>Portfolio</span></a></li>
+                        <li class="menu-items"><a class="page" href="#blog"><span>Blog</span></a></li>
+                        <li class="menu-items"><a class="page" href="#contacts"><span>Contacts</span></a></li>
+                    </ul>
+                </nav>
+                <div class="order">
+                    <button type="button" id="btn-order" class="hide2">
+                        Order
+                    </button>
+                    <button type="button" id="btn-circle" class="hide">
+                        <img class="order_icon" src="images/icons/bars-svgrepo-com%20(2).svg">
+                    </button>
+                </div>
+            </div>
+        </div>
+    </div>
+</header>
+                <!-------------------модальне вікно для екранів з меншим розміром------------------------>
+<div class="wrapper_modal hide">
+    <div id="modal_background">
+        <div id="modal">
+            <div id="header_modal">
+                <div id="header-logo">
+                    <img src="./images/logo/welldwell_logo.png" alt="logo"/>
+                </div>
+                <div id="modal_close">
+                    <button type="button" id="btn_close">
+                        X
+                    </button>
+                </div>
+            </div>
+
+            <div id="modal_menu">
+                <nav id="navbar_modal">
+                    <ul id="header_nav_modal">
+                        <li class="menu-items_modal" ><a class="page" href="#home"><span>Home</span></a></li>
+                        <li class="menu-items_modal"><a class="page" href="#services"><span>Services</span></a></li>
+                        <li class="menu-items_modal"><a class="page" href="#portfolio"><span>Portfolio</span></a></li>
+                        <li class="menu-items_modal"><a class="page" href="#blog"><span>Blog</span></a></li>
+                        <li class="menu-items_modal"><a class="page" href="#contacts"><span>Contacts</span></a></li>
+                    </ul>
+                </nav>
+                <div>
+                    <button type="button" class="btn_order_modal">Order</button>
+                </div>
+            </div>
+            <div class="modal_logo">
+                <img src="images/logo/logo-overlay%20(1).png">
+            </div>
+        </div>
+    </div>
+</div>
+<!---------------------------------------------------------------------------------->
+
+
+<section class="home" id="home">
+    <div class="wrapper">
+        <div class="container">
+            <ul class="about_us">
+                <li><a class="info" href="#services">Services</a></li>
+                <li><a class="info" href="#about">Why welldwell?</a></li>
+                <li><a class="info" href="#stages">Stages</a></li>
+                <li><a class="info" href="#partners">We work with</a></li>
+                <li><a class="info" href="#reviews">Client reviews</a></li>
+                <li><a class="info" href="#order">Order</a></li>
+            </ul>
+            <div class="image-main">
+                <img class='main_photo' src="./images/img/home_hero.png" alt="dinner-room">
+                <img class='logo_overlay' src="images/logo/logo-overlay%20(1).png">
+            </div>
+            <ul class="social_media">
+                <li><a class="social_media_info" href="https://www.facebook.com"><img src="images/icons/social_icon_facebook.svg"></a></li>
+                <li><a class="social_media_info" href="https://www.behance.net/"><img src="images/icons/behance.svg"></a></li>
+                <li><a class="social_media_info" href="https://www.pinterest.com/PinterestUA/"><img src="images/icons/social_icon_pinterest.svg"></a></li>
+                <li><a class="social_media_info" href="https://www.instagram.com/"><img src="images/icons/instagram.svg"></a></li>
+            </ul>
+        </div>
+    </div>
+</section>
+
+
+<!------------------------------------------------------------------------------------------->
+<section class="services_section" id="services">
+    <div class="wrapper">
+        <div class="container">
+            <h2 class="import_heading orange_border">Services</h2>
+            <div class="gallery">
+                <div class="gallery_item" id="slider">
+                    <h3 class="heading">Virtual <br>Staging</h3>
+                    <div class="slider">
+                        <button class="slider-control-left">
+                            <
+                        </button>
+                        <button class="slider-control-right">
+                            >
+                        </button>
+                    </div>
+                    <img class="pic" src="images/img/slider_image_after.png" alt="room after">
+                    <img src="./images/img/slider_image_before.png" alt="room before">
+                    <p class="text">Virtual staging is a type of home staging in which an interior design is created in a graphic editor. </p>
+
+                </div>
+                <div class="gallery_item">
+                    <h3 class="heading">Virtual<br>Renovation</h3>
+                    <img src="./images/img/slider_image_.png" alt>
+                    <p class="text">Virtual renovation is the process of using 3D design to paint color, flooring replacement, wall removal and more</p>
+                </div>
+                <div class="gallery_item">
+                    <h3 class="heading">3D<br>Rendering</h3>
+                    <img src="./images/img/image_no_slider.png" alt>
+                    <p class="text">We create stunning Photorealistic Exterior & Interior 3D Renderings from architectural blueprints.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!------------------------------------------------------------------------------------------->
+<section class="about" id="about">
+    <div class="wrapper">
+        <div class="container">
+            <h2 class="import_heading blue_border ">Why Weldwell?</h2>
+            <div class="kitchen-photo">
+                <img class="kitchen-photo-2" src="images/img/second_image.png">
+                <img class="kitchen-photo-1" src="images/img/main_image.png">
+                <img class="box_shadow" src="images/img/image_background%20(1).png">
+            </div>
+            <div id="info-2">
+                <div class="heading_and_text">
+                    <img src="images/icons/quality_circle.png">
+                    <div class="info-2">
+                        <h3>Quality</h3>
+                        <p class="text2">The digital staging looks realistic and can hardly
+                            be distinguished from high-resolution photos.</p>
+                    </div>
+                </div>
+                <div class="heading_and_text">
+                    <img src="images/icons/thumb_up_circle.png">
+                    <div class="info-2">
+                        <h3>Price</h3>
+                        <p class="text2">Our attractive pricing policy fits both real estate agents
+                            and individuals' budgets, starting from $71 per picture.</p>
+                    </div>
+                </div>
+                <div class="heading_and_text">
+                    <img src="images/icons/handshake_circle.png">
+                    <div class="info-2">
+                        <h3>Taking into account <br>any wishes</h3>
+                        <p class="text2">We listen to the wishes of our clients carefully and implement them as accurately as possible.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!------------------------------------------------------------------------------------------->
+<section class="stages" id="stages">
+    <div class="wrapper">
+        <div class="container">
+            <h2 class="import_heading green_border">Stages</h2>
+
+            <div class="steps">
+                <div class="step">
+                    <img class="img_line" src="./images/icons/circle_and_line.png">
+                    <img class="circle_img" src="/images/icons/circle_background.png">
+                    <div class="info-2">
+                        <h3 class="heading">01. Take the photo</h3>
+                        <p class="text2">Take a photo of the room
+                            in good light at the high resolution.
+                            It will be even better if you use professional
+                            photographer services to get the highest quality photos.</p>
+                    </div>
+                </div>
+
+                <div class="step">
+                    <img class="img_line" src="./images/icons/circle_and_line.png">
+                    <img class="circle_img" src="/images/icons/circle_background%20(2).png">
+                    <div class="info-2">
+                        <h3 class="heading">02. Select the photos</h3>
+                        <p class="text2">Amet minim mollit non deserunt ullamco est sit
+                            aliqua dolor do amet sint. Velit officia consequat duis enim
+                            velit mollit. Exercitation veniam consequat sunt nostrud amet..</p>
+                    </div>
+                </div>
+                <div class="step">
+                    <img class="img_line" src="./images/icons/circle_and_line.png">
+                    <img class="circle_img" src="/images/icons/circle_background%20(1).png">
+                    <div class="info-2">
+                        <h3 class="heading">03. Take the photo</h3>
+                        <p class="text2">TAmet minim mollit non deserunt ullamco est sit aliqua
+                            dolor do amet sint. Velit officia consequat duis enim velit mollit.
+                            Exercitation veniam consequat sunt nostrud amet.</p>
+                    </div>
+                </div>
+                <div class="step">
+                    <img class="circle" src="./images/icons/circle.png">
+                    <img class="circle_img" src="/images/icons/circle_background.png">
+                    <div class="info-2">
+                        <h3 class="heading">04. Take the photo</h3>
+                        <p class="text2">Amet minim mollit non deserunt ullamco est sit aliqua
+                            dolor do amet sint. Velit officia consequat duis enim velit mollit.
+                            Exercitation veniam consequat sunt nostrud amet.</p>
+                    </div>
+                    <div>
+                        <button type="button" class="btn_order">Order</button>
+                    </div>
+                </div>
+            </div>
+            <div class="image">
+                <img class="img2" src="./images/img/image_landscape.png" alt="">
+            </div>
+        </div>
+    </div>
+</section>
+
+<!------------------------------------------------------------------------------------------->
+<section class="partners" id="partners">
+    <div class="wrapper">
+        <div class="container">
+            <h2 class="import_heading orange_border">We work <br> with</h2>
+            <div class="partners_logo">
+                <img class="logo_first_line partn_logo" src="./images/logo/compass.png" alt="compass">
+                <img class="logo_first_line partn_logo" src="./images/logo/sothebys.png" alt="sothebys">
+                <img class="logo_first_line partn_logo" src="./images/logo/corcoran.png" alt="corcoran">
+                <img class="logo_first_line partn_logo" src="./images/logo/douglas.png" alt="douglas">
+                <img class="logo_second_line partn_logo" src="./images/logo/company_logo%20(1).png" alt="habitas">
+                <img class="logo_second_line partn_logo" src="./images/logo/nedt_seekers.png" alt="seekers">
+                <img class="logo_second_line partn_logo" src="./images/logo/brown_harris.png" alt="brown_harris">
+                <img class="logo_second_line partn_logo" src="./images/logo/kw.png" alt="kw">
+            </div>
+        </div>
+    </div>
+</section>
+<!---------------------------------------------------------------------------------------------->
+<section class="client_review" id="reviews">
+    <div class="wrapper">
+        <div class="container">
+            <h2 class="import_heading blue_border">Client <br> reviews</h2>
+            <div class="clients_photo">
+                <img class="client1 photo" src="./images/img/client.png" alt="our client's photo">
+                <img width=352px class="client2 photo hide" src="./images/img/client2.jpg">
+                <img width=352px class="client3 photo hide" src="./images/img/client3.jpg">
+            </div>
+            <div class="review_and_slider_review">
+                <div class="review">
+                    <img src="./images/icons/quote.png" alt="">
+                    <p class="text_review">We love the Spotless Group. The one thing most consumers lack when it comes to imagining space is a vivid imagination.
+                        <br><br>
+                        Virtual staging has been extraordinarily helpful in helping visualize a better future. Spotless is. It only great at what they do,
+                        but their customer service is equally impressive..</p>
+                    <h4 class="clients_name">Leonard Steinberg</h4>
+                    <p class="company">COMPASS</p>
+
+                </div>
+                <div class="review hide">
+                    <img src="./images/icons/quote.png" alt="">
+                    <p class="text_review">Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+                        Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
+                        when an unknown printer took a galley of type and scrambled it to make a type specimen book..</p>
+                    <h4 class="clients_name">Lorem ipsum dolore</h4>
+                    <p class="company">Corcoran</p>
+                </div>
+                <div class="review hide">
+                    <img src="./images/icons/quote.png" alt="">
+                    <p class="text_review">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form,
+                        by injected humour, or randomised words which don't look even slightly believable.
+                        If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't anything embarrassing hidden in the middle of text.</p>
+                    <h4 class="clients_name">Lorem ipsum dolore</h4>
+                    <p class="company">nedt_seekers</p>
+                </div>
+                <div class="slider_review">
+                    <button type="button" class="arrow_left"><img src="./images/icons/Arrow 8.png"></button>
+                    <img class="slider_circle blue_circle" src="images/icons/circle_background.png" alt="blue_circle">
+                    <img src="./images/icons/line (1).png">
+                    <img class="slider_circle orange_circle" src="images/icons/circle.png" alt="orange_circle">
+                    <img class="slider_circle orange_circle hide" src="images/icons/circle_background%20(2).png" alt="orange_circle">
+                    <img src="./images/icons/line (1).png">
+                    <img class="slider_circle green_circle" src="images/icons/circle.png" alt="green_circle">
+                    <img class="slider_circle green_circle hide" src="images/icons/circle_background%20(1).png" alt="green_circle">
+                    <button type="button" class="arrow_right"><img src="./images/icons/Arrow 7.png"></button>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!------------------------------------------------------------------------------------------->
+<section id="order">
+    <div class="wrapper">
+        <div class="container">
+            <h2 class="import_heading green_border">Order</h2>
+            <div class="order_info">
+                <h3 class="heading">Don't miss the opportunity to increase your sales efficiency</h3>
+                <div class="input_field">
+                    <p class="input_text_name">Name</p>
+                    <input class="input_name" type="text" name="Name">
+                </div>
+                <div class="input_field">
+                    <p class="input_text_name">Email</p>
+                    <input class="input_name" type="email" name="email">
+                </div>
+                <div class="input_field">
+                    <p class="input_text_name">Phone number</p>
+                    <input class="input_name" type="text" name="email">
+                </div>
+                <div>
+                    <button type="button" class="btn_order2">Order</button>
+                </div>
+            </div>
+            <div class="holl">
+                <img src="./images/img/image_landscape2.png" alt="holl">
+            </div>
+        </div>
+    </div>
+</section>
+
+<!------------------------------------------------------------------------------------------->
+<footer id="footer">
+    <div class="wrapper">
+        <div class="container">
+            <h2 class="import_heading orange_border">Contacts</h2>
+            <div class="footer">
+                <div class="header-logo2">
+                    <img src="images/logo/welldwell_logo.png">
+                </div>
+                <a href="mailto:hello@welldwell.agency">hello@welldwell.agency</a>
+                <a href="callto:+19292351729">+19292351729</a>
+                <p>7681 E CANDELARIA DR. SCOTTSDALE, AZ 85255</p>
+                <div class="input_field">
+                    <p class="input_text_name">Email</p>
+                    <input class="input_name" type="email" name="email">
+                </div>
+                <div>
+                    <button class="btn_subscribe" type="submit" name="subscribe">Subscribe</button>
+                </div>
+            </div>
+            <div class="footer">
+                <h4 class="heading_h4">What we do</h4>
+                <a href="#">Services</a>
+                <a href="#">Portfolio</a>
+            </div>
+            <div class="footer">
+                <h4 class="heading_h4">Information</h4>
+                <a href="#">Blog</a>
+                <a href="#">Resources</a>
+                <a href="#">FAQ</a>
+                <a href="#">Privacy Policy</a>
+            </div>
+            <div class="footer">
+                <h4 class="heading_h4">Social</h4>
+                <a href="https://www.facebook.com"><img src="images/icons/social_icon_facebook.svg"></a>
+                <a href="https://www.behance.net/"><img src="images/icons/behance.svg"></a>
+                <a href="https://www.pinterest.com/PinterestUA/"><img src="images/icons/social_icon_pinterest.svg"></a>
+                <a href="https://www.instagram.com/"><img src="images/icons/instagram.svg"></a>
+            </div>
+        </div>
+    </div>
+</footer>
+<script src="script/app.js"></script>
+</body>
+</html>
