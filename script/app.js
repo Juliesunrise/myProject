@@ -1,13 +1,12 @@
 //-----------------------------//
 
-let modal=document.querySelector('.modal')
+let modal=document.querySelector('.wrapper_modal')
 let btn=document.querySelector('#btn-circle')
 let close=document.querySelector('#btn_close')
 
 if( window.innerWidth <= 768)
 {
     btn.addEventListener('click', function () {
-
 
         if (btn) {
             modal.classList.remove('hide')
@@ -20,5 +19,5 @@ if( window.innerWidth <= 768)
 
         }
     })
-};
+}
 
